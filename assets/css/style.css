@@ -118,6 +118,24 @@ h6 {
 .header-social-links a:hover {
   color: #009cea;
 }
+/*--------------------------------------------------------------
+#  Social Links
+--------------------------------------------------------------*/
+.social-links {
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+
+.social-links a {
+  color: #1eb4ff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #f0c;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -336,6 +354,7 @@ h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   opacity: 0.5;
   animation: scale 25s;
 }
@@ -758,20 +777,14 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #009cea;
 }
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #009cea;
 }
 .portfolio-details .portfolio-info {
@@ -809,11 +822,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url('../img/cta-bg.jpg') center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/cta-bg.jpg') center center;
   background-size: cover;
   padding: 80px 0;
 }
