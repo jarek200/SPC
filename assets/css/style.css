@@ -108,6 +108,7 @@ h6 {
     margin: 0 15px 0 0;
   }
 }
+
 .header-social-links a {
   color: #7b909a;
   display: inline-block;
@@ -126,15 +127,43 @@ h6 {
   margin: 0 15px 0 0;
 }
 
-.social-links a {
-  color: #1eb4ff;
-  margin: 0 10px;
-  font-size: 24px;
-  transition: color 0.3s;
+@media (min-width: 768px) {
+  .social-links {
+    display: none;
+  }
 }
 
-.social-links a:hover {
-  color: #f0c;
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #f8f9fa, #ece9e6);
+  border-radius: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-link span {
+  font-weight: bold;
+}
+
+.social-link .bi-instagram {
+  color: #e1306c;
+}
+
+.social-link .bi-facebook {
+  color: #3b5998;
+}
+
+.social-link:hover {
+  color: #555;
 }
 
 /*--------------------------------------------------------------
@@ -370,7 +399,7 @@ h6 {
 
 .banner {
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 5%;
 }
 
