@@ -126,40 +126,21 @@ h6 {
   text-align: center;
   margin: 0 15px 0 0;
 }
-
-@media (min-width: 768px) {
-  .social-links {
-    display: none;
-  }
-}
-
-.social-media-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background: linear-gradient(to right, #f8f9fa, #ece9e6);
-  border-radius: 10px;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  color: #000;
+.social-links a {
   margin-right: 15px;
-  text-decoration: none;
 }
-
-.social-link span {
-  font-weight: bold;
+.bi-instagram {
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
 }
-
-.social-link .bi-instagram {
-  color: #e1306c;
-}
-
-.social-link .bi-facebook {
+.bi-facebook {
   color: #3b5998;
+  font-size: 36px;
+}
+.bi-telephone {
+  font-size: 36px;
 }
 
 .social-link:hover {
