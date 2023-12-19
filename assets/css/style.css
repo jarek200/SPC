@@ -1276,6 +1276,8 @@ section {
   color: #fff;
 }
 .contact .info .email:hover i,
+.contact .info .facebook:hover i,
+.contact .info .instagram:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #009cea;
@@ -1529,3 +1531,7 @@ section {
   font-size: 13px;
   color: #364146;
 }
+
+/* .bi-chevron-right {
+  font-size: 0.8rem;
+} */

@@ -7,7 +7,6 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    -->
 
     <!-- Google Fonts -->
     <link
@@ -457,12 +456,6 @@
           <div class="row">
             <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
               <div class="info">
-                <!-- <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Collum Ln, Kewstoke BS22 9YX</p>
-              </div> -->
-
                 <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
@@ -474,12 +467,12 @@
                   <h4>Telefon:</h4>
                   <p>01934513692</p>
                 </div>
-                <div>
+                <div class="instagram">
                   <i class="bi bi-instagram"></i>
                   <h4>Instagram:</h4>
                   <p>@aktywujzdrowie_dieta</p>
                 </div>
-                <div>
+                <div class="facebook">
                   <i class="bi bi-facebook"></i>
                   <h4>Facebook:</h4>
                   <p>@anna.turzanska</p>
@@ -490,29 +483,39 @@
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
+                  <!-- make h4 center  -->
+
+                  <h4 class="text-center">Wypelnij formularz, aby dowiedzien sie o ofercie</h4>
+                  <p class="text-center">Ja i moj zespol dotrzemy do Ciebie i powiemy Ci o najlepszych opcjach jakie obecnie mamy!</p>
+                  <div class="form-group">
+                    <label for="name">Imie i Nazwisko</label>
                     <input type="text" name="name" class="form-control" id="name" required />
                   </div>
-                  <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <label for="name">Your Email</label>
+                  <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Numer Telefonu</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="name">Nazwa @ na Instagramie</label>
+                    <input type="email" class="form-control" name="email" id="email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Twoj Miesieczny Dochod</label>
                     <input type="email" class="form-control" name="email" id="email" required />
                   </div>
                 </div>
-                <div class="form-group mt-3">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required />
-                </div>
-                <div class="form-group mt-3">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" required></textarea>
-                </div>
+
                 <div class="my-3">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Ladowanie</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Wiadomosc Wyslana. Dziekujemy!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Wysli Wiadomosc</button></div>
               </form>
             </div>
           </div>
@@ -523,48 +526,24 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
-    <footer class="footer mt-auto py-3 bg-dark text-white">
+    <footer class="footer bg-dark text-white py-3">
       <div class="container">
-        <div class="row">
-          <!-- Left Column -->
-          <div class="col-md-4">
-            <h5>Anna Turzanska</h5>
-
-            <p>Indywidualny program, gdzie możesz schudnąć bez ćwiczeń przez zdrową i smaczną dietę.</p>
+        <div class="row justify-content-between">
+          <!-- Navigation Links -->
+          <div class="col-md-8 d-flex justify-content-around justify-content-md-between">
+            <i class="bi bi-chevron-right"></i><a href="#" class="text-white">O mnie</a> <i class="bi bi-chevron-right"></i>
+            <a href="#" class="text-white">Regulamin</a> <i class="bi bi-chevron-right"></i>
+            <a href="#" class="text-white">Polityka prywatności</a>
           </div>
-          <!-- Middle Column -->
-          <div class="col-md-4">
-            <h5>Ważne linki</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">O mnie</a></li>
-              <li><a href="#" class="text-white">Regulamin</a></li>
-              <li><a href="#" class="text-white">Polityka prywatności</a></li>
-              <li><a href="#" class="text-white">Informacja o przetwarzaniu danych</a></li>
-            </ul>
+          <!-- Divider for small screens only -->
+          <hr class="w-100 d-md-none mt-3" />
+          <!-- Copyright Text -->
+          <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
+            <p class="mb-0 text-center text-md-left">Copyright © AT All Rights Reserved</p>
           </div>
-          <!-- Right Column -->
-          <div class="col-md-4">
-            <h5>Skontaktuj się ze mną</h5>
-            <!-- get me the text white  -->
-            <a class="btn d-flex align-items-center text-white"> <i class="bi bi-telephone"> </i>&nbsp +48 663 036 733 </a>
-            <a href="https://www.instagram.com/aktywujzdrowie_dieta" target="_blank" class="btn d-flex align-items-center text-white">
-              <!-- Instagram Icon -->
-              <i class="bi bi-instagram"></i>
-              &nbsp @aktywujzdrowie_dieta
-            </a>
-            <a href="https://www.facebook.com/anna.turzanska" target="_blank" class="btn d-flex align-items-center text-white">
-              <!-- Instagram Icon -->
-              <i class="bi bi-facebook"></i>
-
-              &nbsp@anna.turzanska
-            </a>
-          </div>
-        </div>
-
-        <hr class="bg-white" />
-        <div class="text-center py-4">
-          <p>Copyright © 2024 All Right Reserved Design by AT</p>
         </div>
       </div>
     </footer>
