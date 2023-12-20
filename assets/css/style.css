@@ -1286,13 +1286,12 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
+  padding-bottom: 10px;
   background: #fff;
   border: 2px solid #e9ecee;
   border-radius: 4px;
 }
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
+
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -1332,16 +1331,10 @@ section {
 }
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 2;
   box-shadow: none;
-  font-size: 14px;
 }
-.contact .php-email-form input {
-  height: 44px;
-}
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
+
 .contact .php-email-form button[type='submit'] {
   background: #009cea;
   border: 0;
@@ -1531,7 +1524,3 @@ section {
   font-size: 13px;
   color: #364146;
 }
-
-/* .bi-chevron-right {
-  font-size: 0.8rem;
-} */

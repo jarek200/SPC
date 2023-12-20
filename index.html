@@ -85,19 +85,26 @@
           <p>Gotuj z pasja smakuj z radoscia!</p>
 
           <div class="container d-flex align-items-center justify-content-between">
-            <button><a class="scrollto" style="color: #fff" href="#about">Dowiedz sie wiecej</a></button>
-            <a href="https://www.instagram.com/aktywujzdrowie_dieta" target="_blank" class="btn d-flex align-items-center">
-              <!-- Instagram Icon -->
+            <button class="btn btn-primary mr-3 scrollto d-flex align-items-center justify-content-center" href="#about">
+              Dowiedz sie wiecej
+            </button>
+
+            <button
+              class="btn btn-success d-none d-lg-inline-block mr-3 d-flex align-items-center justify-content-center"
+              onclick="location.href='https://www.instagram.com/aktywujzdrowie_dieta'"
+              target="_blank"
+            >
               <i class="bi bi-instagram"></i>
-
-              &nbsp@aktywujzdrowie_dieta
-            </a>
-            <a href="https://www.facebook.com/anna.turzanska" target="_blank" class="btn d-flex align-items-center">
-              <!-- Instagram Icon -->
+              &nbsp;@aktywujzdrowie_dieta
+            </button>
+            <button
+              class="btn btn-outline-primary d-none d-lg-inline-block mr-3 d-flex align-items-center justify-content-center"
+              onclick="location.href='https://www.facebook.com/anna.turzanska'"
+              target="_blank"
+            >
               <i class="bi bi-facebook"></i>
-
-              &nbsp@anna.turzanska
-            </a>
+              &nbsp;@anna.turzanska
+            </button>
           </div>
         </div>
       </header>
@@ -115,9 +122,7 @@
 
           <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-              <div class="content pt-4 pt-lg-0">
-                <!-- <h3>Learn more about us</h3> -->
-
+              <div class="content pt-lg-0">
                 <p>
                   Jestem doświadczoną dietetyczką, która od wielu lat pomaga klientom osiągać ich cele zdrowotne i kondycyjne. Moja
                   filozofia opiera się na zasadzie, że schudnięcie i utrzymanie zdrowej wagi nie muszą być związane z dużymi wyrzeczeniami.
@@ -143,9 +148,9 @@
           </div>
 
           <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+            <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
               <div class="icon-box icon-box-pink">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <div class="icon mb-3"><i class="bi bi-search mb-3"></i></div>
                 <h4 class="title"><a href="">Dietetyka kliniczna</a></h4>
                 <p class="description">
                   Układam diety spersonalizowane pod twój problem i twoje możliwości aby zmiana nawyków żywieniowych nie była dla ciebie
@@ -154,27 +159,24 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box icon-box-cyan">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                <div class="icon mb-3"><i class="bi bi-book mb-3"></i></div>
+                <h4 class="title"><a href="">Edukacja</a></h4>
+                <p class="description">
+                  Mój cel to zidentyfikować i rozwiązać przyczyny twoich problemów zdrowotnych, aby poprawić twoje samopoczucie.
+                </p>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon-box icon-box-green">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon-box icon-box-blue">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                <div class="icon mb-3"><i class="bi bi-check mb-3"></i></div>
+                <h4 class="title"><a href="">Diagnostyka</a></h4>
+                <p class="description">
+                  Najważniejsze dla mnie jest aby poznać przyczynę danego problemu i na nią wpłynąć bo jedynie w ten sposób możemy poprawić
+                  twoje zdrowie i samopoczucie!
+                </p>
               </div>
             </div>
           </div>
@@ -480,11 +482,9 @@
               </div>
             </div>
 
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+            <div class="col-lg-7 mt-2 mt-lg-0" data-aos="fade-left">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
-                  <!-- make h4 center  -->
-
                   <h4 class="text-center">Wypelnij formularz, aby dowiedzien sie o ofercie</h4>
                   <p class="text-center">Ja i moj zespol dotrzemy do Ciebie i powiemy Ci o najlepszych opcjach jakie obecnie mamy!</p>
                   <div class="form-group">
@@ -510,12 +510,19 @@
                   </div>
                 </div>
 
-                <div class="my-3">
+                <div class="my-2">
                   <div class="loading">Ladowanie</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Wiadomosc Wyslana. Dziekujemy!</div>
                 </div>
-                <div class="text-center"><button type="submit">Wysli Wiadomosc</button></div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Wyrazam zgode na przetwarzanie i wykorzystanie danych osobowych dla celow marketingowych i handlowych.</label
+                  >
+                </div>
+                <div class="d-flex justify-content-center align-items-center mb-5"><button type="submit">Wysli Wiadomosc</button></div>
+                <p class="mt-2 text-center">Rejestracja nie jest równoznaczna z zobowiązaniem.</p>
               </form>
             </div>
           </div>
@@ -533,7 +540,7 @@
       <div class="container">
         <div class="row justify-content-between">
           <!-- Navigation Links -->
-          <div class="col-md-8 d-flex justify-content-around justify-content-md-between">
+          <div class="col-md-8 d-flex justify-content-around justify-content-md-start">
             <i class="bi bi-chevron-right"></i><a href="#" class="text-white">O mnie</a> <i class="bi bi-chevron-right"></i>
             <a href="#" class="text-white">Regulamin</a> <i class="bi bi-chevron-right"></i>
             <a href="#" class="text-white">Polityka prywatności</a>
