@@ -372,7 +372,7 @@ h6 {
 }
 
 .banner h1 {
-  font-family: 'Font serif', serif;
+  /* font-family: 'Font serif', serif; */
   letter-spacing: 0.2rem;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   animation: moveBanner 1s 0.5s forwards;
@@ -405,7 +405,6 @@ h6 {
   border-radius: 0.1rem;
   font-family: 'Muli', serif;
   font-size: 1rem;
-  margin-left: -1rem;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
@@ -427,28 +426,21 @@ h6 {
 
 @media (max-width: 430px) {
   .banner {
-    position: absolute;
-    top: 20%;
-    left: 5%;
+    width: 100%;
+    left: 0%;
   }
-
   .banner h1 {
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     text-align: center;
-    left: 5%;
   }
 
   .banner p {
-    font-size: 2.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 
-  .banner button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: 7%;
+  .banner .hand-written {
+    width: 100%;
   }
 }
 
@@ -460,21 +452,16 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  /* background-color: #f7f8f9; */
-}
-
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  text-transform: uppercase;
 }
 .section-title h2 {
   font-size: 32px;
   font-weight: 400;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   padding-bottom: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #627680;
 }
 .section-title p {
   margin-bottom: 0;
@@ -485,10 +472,9 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 0;
-  margin-top: 20px;
 }
 .about .container {
-  padding: 40px 50px;
+  /* padding: 40px 50px; */
 }
 @media (max-width: 992px) {
   .about .container {
@@ -1510,4 +1496,12 @@ section {
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+
+.card-img-top-smaller {
+  max-width: auto;
+  max-height: 250px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
 }
