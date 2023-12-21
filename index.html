@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet" />
@@ -37,7 +38,7 @@
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
         <!-- Social Links -->
-        <div class="social-links d-flex d-lg-none">
+        <div class="social-links d-flex">
           <a href="https://www.instagram.com/aktywujzdrowie_dieta" target="_blank" class="instagram">
             <i class="bi bi-instagram"></i>
           </a>
@@ -72,15 +73,22 @@
         <div class="img-wrapper">
           <img src="assets/img/hero3.png" />
         </div>
-        <div class="banner">
-          <h1><span>Anna Turzanska</span> <br /><br /><span>Zdrowe gotowanie</span></h1>
 
-          <p>Gotuj z pasja smakuj z radoscia!</p>
+        <div class="banner position-absolute">
+          <h1 class="fw-light w-95 text-nowrap text-white">Zdrowe Gotowanie</h1>
+          <p class="text-white">Dietetyk Anna Turzanska</p>
+        </div>
+        <div class="position-absolute banner banner-bottom">
+          <p class="hand-written">Gotuj z pasja smakuj z radoscia!</p>
+          <p class="text-white">
+            Jako dietetyk i przedstawiciel Thermomix, jestem tu,<br />
+            by Cię zainspirować do zdrowego i szybkiego gotowania.<br />
+            Dzięki Thermomix, każdy posiłek może być pełen smaku,<br />
+            wartości odżywczych i przygotowany w mgnieniu oka.
+          </p>
 
           <div class="container d-flex align-items-center justify-content-between">
-            <button class="btn btn-primary mr-3 scrollto d-flex align-items-center justify-content-center" href="#about">
-              Dowiedz sie wiecej
-            </button>
+            <button class="mr-3 scrollto d-flex align-items-center justify-content-center" href="#about">Dowiedz sie wiecej</button>
           </div>
         </div>
       </header>
@@ -89,7 +97,6 @@
 
     <main id="main">
       <!-- ======= About Section ======= -->
-
       <section id="about" class="about">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
