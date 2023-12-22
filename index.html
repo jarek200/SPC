@@ -45,7 +45,7 @@
           <a href="https://www.facebook.com/anna.turzanska" target="_blank" class="facebook">
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="https://wa.me/663036733" target="_blank" class="whatsapp">
+          <a href="https://wa.me/+48663036733" target="_blank" class="whatsapp">
             <i class="bi bi-whatsapp"></i>
           </a>
         </div>
@@ -53,14 +53,12 @@
         <nav id="navbar" class="navbar order-last order-lg-0 align-items-center">
           <ul>
             <li><a class="nav-link scrollto active" href="#hero">Strona Glowna</a></li>
-            <li><a class="nav-link scrollto" href="#about">O Mnie</a></li>
-            <li><a class="nav-link scrollto" href="#thermomix">Thermomix</a></li>
-            <li><a class="nav-link scrollto" href="#team">Oferta</a></li>
-            <li><a class="nav-link scrollto" href="#photos">Przykladowe dania</a></li>
-
-            <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
-
-            <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
+            <li><a class="nav-link scrollto" href="#omnie">O Mnie</a></li>
+            <li><a class="nav-link scrollto" href="#opinie">Opinie Klientow</a></li>
+            <li><a class="nav-link scrollto" href="#termomiks">Dieta z Termomiksem</a></li>
+            <li><a class="nav-link scrollto" href="#dania">Przykladowe dania</a></li>
+            <li><a class="nav-link scrollto" href="#oferta">Oferta</a></li>
+            <li><a class="nav-link scrollto" href="#formularz">Formularz</a></li>
           </ul>
 
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -78,13 +76,15 @@
         </div>
 
         <div class="banner position-absolute">
-          <h1 class="w-95 text-nowrap text-white fs-1">Dieta z Thermomix</h1>
+          <h1 class="w-95 text-nowrap text-white fs-1">Dieta z Termomiksem</h1>
           <p class="text-white fs-5 fs-md-4 fs-lg-3">Anna Turzanska</p>
         </div>
         <div class="position-absolute banner banner-bottom">
-          <p class="hand-written">Jestem tu, by Cię zainspirować do zdrowego i szybkiego gotowania dzięki Thermomix.</p>
+          <p class="hand-written">Jestem tu, by Cię zainspirować do zdrowego i szybkiego gotowania z Termomiksem.</p>
           <div class="w-100">
-            <button class="scrollto d-flex align-items-center justify-content-center" href="#about">Dowiedz sie wiecej</button>
+            <button class="d-flex align-items-center justify-content-center" href="#omnie">
+              <a class="scrollto text-white" href="#omnie">Dowiedz sie wiecej</a>
+            </button>
           </div>
         </div>
       </header>
@@ -93,21 +93,26 @@
 
     <main id="main">
       <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+      <section id="omnie" class="about mb-4">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2 class="fs-1 text-uppercase">Pare słów o mnie</h2>
+            <h2 class="fs-1">Pare słów o mnie</h2>
           </div>
 
           <div class="row">
             <div class="col-lg-6 d-flex flex-column" data-aos="fade-left">
               <div class="content mb-4">
                 <p>
-                  Jestem doświadczoną dietetyczką, która od wielu lat pomaga klientom osiągać ich cele zdrowotne i kondycyjne. Moja
-                  filozofia opiera się na zasadzie, że schudnięcie i utrzymanie zdrowej wagi nie muszą być związane z dużymi wyrzeczeniami.
-                  Wierzę w mądre i zrównoważone odżywianie, które jest zarówno smaczne, jak i odżywcze. Kluczowym elementem mojego podejścia
-                  jest wykorzystanie Termomiksa, który umożliwia przygotowanie szybkich, łatwych i zdrowych posiłków. Dzięki mojej pomocy,
-                  klienci uczą się jak cieszyć się jedzeniem, które wspiera ich zdrowie i dobre samopoczucie.
+                  Jestem <span class="highlight">doświadczoną dietetyczką</span>, która od wielu lat
+                  <span class="highlight">pomaga</span> klientom <span class="highlight">osiągać</span> ich
+                  <span class="highlight">cele zdrowotne</span> i <span class="highlight">kondycyjne</span>.<br /><br />
+                  Moja filozofia opiera się na zasadzie, że schudnięcie i utrzymanie zdrowej wagi nie muszą być związane z dużymi
+                  wyrzeczeniami. Wierzę w <span class="highlight">mądre i zrównoważone</span> odżywianie, które jest zarówno
+                  <span class="highlight">smaczne</span>, jak i <span class="highlight">odżywcze</span>.<br /><br />
+                  Kluczowym elementem mojego podejścia jest wykorzystanie <span class="highlight">Termomiksa</span>, który umożliwia
+                  przygotowanie <span class="highlight">szybkich</span>, <span class="highlight">łatwych</span> i
+                  <span class="highlight">zdrowych</span> posiłków. Dzięki mojej pomocy, klienci uczą się jak cieszyć się jedzeniem, które
+                  wspiera ich <span class="highlight">zdrowie</span> i <span class="highlight">dobre samopoczucie</span>.
                 </p>
               </div>
             </div>
@@ -119,13 +124,103 @@
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Thermomix section ======= -->
-      <hr class="w-95 my-3 mx-5" />
-      <section id="thermomix" class="about">
+      <!-- ======= Opinie Section ======= -->
+      <hr class="divider" data-aos="fade-left" />
+      <section id="opinie" class="testimonials">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2 class="fs-1">Opinie moich klientow</h2>
+          </div>
+
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Friendly and welcoming host to ensure your confidence in leaving your pet in good hands, clean and well maintained areas
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+
+                  <h3>Donna Bowen</h3>
+                  <h4>Google Reviews</h4>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Wow I have just had to leave my dog Poppy with Wendy at these kennels, I was so worried about leaving her, as she is a
+                    rescue dog but I need not have worried at all. She's been thoroughly spoilt and well looked after that she has settled
+                    back at home straight away. Thank you Wendy I wish you well in your new venture you are a star
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+
+                  <h3>Brenda Grigg</h3>
+                  <h4>Google Reviews</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Collum Farm Kennels is a perfect stay for your dog/ cat.. It is set in a lovely quiet, rural location .. It is clean,
+                    tidy, safe and secure..It has a large exercise run area.. Wendy the business owner is very friendly and accomodating to
+                    your dog / cats needs.. Very competitive prices.. Highly recommend these kennels / cattery....
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+
+                  <h3>Karon Powell</h3>
+                  <h4>Google Reviews</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    New owners very welcoming set-up very professional reasonable pricing our Dog very well cared for will definitely be
+                    using their service's again thank you Wendy see you soon
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+
+                  <h3>Graham Hopp</h3>
+                  <h4>Google Reviews</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Clean and cozy place for Animals ,very well look after
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+
+                  <h3>Julie Humphreys</h3>
+                  <h4>Google Reviews</h4>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Termomiks section ======= -->
+      <hr class="divider" data-aos="fade-left" />
+      <section id="termomiks">
         <div class="container-fluid">
           <div class="row">
             <div class="section-title" data-aos="fade-up">
-              <h2 class="fs-1 text-uppercase">Dlaczego warto gotowac z Termomix?</h2>
+              <h2 class="fs-1">Dlaczego Dieta z Termomiksem?</h2>
             </div>
             <div class="col-lg-6" data-aos="zoom-in">
               <img src="assets/img/thermomix2.webp" class="img-fluid w-200 thermomix-img" alt="" />
@@ -151,9 +246,9 @@
           </div>
         </div>
       </section>
-      <!-- ======= Photos Section ======= -->
-      <hr class="w-95 mt-3 mx-5" />
-      <section id="photos" class="testimonials">
+      <!-- ======= Galeria zdjec ======= -->
+      <hr class="divider" data-aos="fade-left" />
+      <section id="dania" class="testimonials">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
             <h2 class="fs-1">Przykladowe dania</h2>
@@ -161,7 +256,7 @@
           <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="container mt-5">
+                <div class="container">
                   <div class="card">
                     <img src="/assets/img/dania/danie1.jpg" class="card-img-top card-img-top-smaller" alt="Thumbnail" />
                     <div class="card-body">
@@ -170,7 +265,9 @@
                         This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
                         bit longer.
                       </p>
-                      <p class="card-text"><small class="text-muted">9 mins</small></p>
+                      <p class="card-text">
+                        <small class="text-muted"> <i class="bi bi-clock text-dark"></i> <i class="bi bi-"></i>9 mins</small>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -223,7 +320,12 @@
               <div class="swiper-slide">
                 <div class="container mt-5">
                   <div class="card">
-                    <img src="/assets/img/dania/danie5.jpg" class="card-img-top card-img-top-smaller" alt="Thumbnail" />
+                    <img
+                      src="/assets/img/dania/danie5.jpg"
+                      style="object-position: top"
+                      class="card-img-top card-img-top-smaller"
+                      alt="Thumbnail"
+                    />
                     <div class="card-body">
                       <h5 class="card-title">Thumbnail</h5>
                       <p class="card-text">
@@ -318,263 +420,37 @@
 
       <!-- End Photo section -->
 
-      <!-- ======= Testimonials Section ======= -->
-      <hr class="w-95 mt-3 mx-5" />
-      <section id="testimonials" class="testimonials">
+      <!-- ======= Oferta Section ======= -->
+      <hr class="divider text-muted" data-aos="fade-left" />
+      <section id="oferta" class="pricing section-bg">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2 class="fs-1">Opinie moich klientow</h2>
-            <!-- <p>We love our customers, and they love us.</p> -->
-          </div>
-
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Friendly and welcoming host to ensure your confidence in leaving your pet in good hands, clean and well maintained areas
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-
-                  <h3>Donna Bowen</h3>
-                  <h4>Google Reviews</h4>
-                </div>
-              </div>
-              <!-- End Photo section -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Wow I have just had to leave my dog Poppy with Wendy at these kennels, I was so worried about leaving her, as she is a
-                    rescue dog but I need not have worried at all. She's been thoroughly spoilt and well looked after that she has settled
-                    back at home straight away. Thank you Wendy I wish you well in your new venture you are a star
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-
-                  <h3>Brenda Grigg</h3>
-                  <h4>Google Reviews</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Collum Farm Kennels is a perfect stay for your dog/ cat.. It is set in a lovely quiet, rural location .. It is clean,
-                    tidy, safe and secure..It has a large exercise run area.. Wendy the business owner is very friendly and accomodating to
-                    your dog / cats needs.. Very competitive prices.. Highly recommend these kennels / cattery....
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-
-                  <h3>Karon Powell</h3>
-                  <h4>Google Reviews</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    New owners very welcoming set-up very professional reasonable pricing our Dog very well cared for will definitely be
-                    using their service's again thank you Wendy see you soon
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-
-                  <h3>Graham Hopp</h3>
-                  <h4>Google Reviews</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Clean and cozy place for Animals ,very well look after
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-
-                  <h3>Julie Humphreys</h3>
-                  <h4>Google Reviews</h4>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Pricing Section ======= -->
-      <hr class="w-95 mx-5" />
-      <section id="pricing" class="pricing section-bg">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2 class="fs-1">Pricing</h2>
-            <p>For our boarding we offer a 10% discount for seniors, multiple pets, and a long term discount (15 nights or more).</p>
-            <p>Prices Include VAT</p>
+            <h2 class="fs-1">Oferta</h2>
           </div>
 
           <div class="row">
             <div class="col-lg-6 col-md-6">
               <div class="box" data-aos="zoom-in">
-                <h3>DOG</h3>
-                <h4><sup>£</sup>20<span> / day</span></h4>
+                <h2>Schudnij 5kg w 2 miesiace!</h2>
+
                 <ul>
                   <li>Wet/dry food, bedding and toys included</li>
                   <li>Plenty of exercise</li>
                   <li>Social interaction</li>
                   <li>Dogs boarded together get 10% off</li>
                 </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">BOOK NOW</a>
+                <p>Wypelnij formularz, aby dowiedzien sie wiecej</p>
+                <div class="d-flex justify-content-center align-items-center" style="height: 200px">
+                  <a href="#omnie" class="btn btn-link bounce">
+                    <i class="bi bi-arrow-down"></i>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
-              <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
-                <h3>CAT</h3>
-                <h4><sup>$</sup>15<span> / day</span></h4>
-                <ul>
-                  <li>Wet/dry food, bedding and toys included</li>
-                  <li>Plenty of exercise</li>
-                  <li>Social interaction</li>
-                  <li>Cats boarded together get 10% off</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a href="#contact" class="btn-buy">BOOK NOW</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Pricing Section -->
-
-      <!-- ======= F.A.Q Section ======= -->
-      <hr class="w-95 mt-3 mx-5" />
-      <section id="faq" class="faq">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Najczesciej Zadawane Pytania</h2>
-          </div>
-
-          <ul class="faq-list">
-            <li>
-              <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
-                What is required when checking in my pet? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  1. The most important item to bring is proof of current vaccinations from your vet. This includes Rabies, Distemper/Parvo,
-                  and Kennel Cough. No pet is allowed to enter our boarding facilities without current vaccinations.<br /><br />
-
-                  2. We would also like to know your itinerary with phone numbers while your pet is boarding. We want to be able to reach
-                  you in case we have a question regarding the care of your pet. As a last resort, we will take the number of a family
-                  member or friend, but our preference is to be able to reach you directly. If you will be out of the country and cannot be
-                  reached by phone we may also ask for your e-mail.<br /><br />
-
-                  3. While entering and exiting the kennel, your dog must be on a leash and under your control at all times.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
-                Can I bring my pet's personal bedding? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  For sanitary reasons we ask that you let us provide bedding for your pet.<br />
-                  We provide a thick rubber mat along with our own very comfortable machine washable lambswool type bedding.<br />
-                  We would be happy to show you upon request.<br />
-                  If you must bring bedding for your pet we require it to be labeled in permanent marker. We will NOT accept comforters or
-                  dog beds.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
-                Can I bring toys and treats for my pet? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Yes, we encourage you to bring 1 or 2 toys and treats for your pet. We do have a "no rawhide" policy but have dog friendly
-                  treats available in our lobby display.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
-                Do I need to bring my pet's own food? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  No, we provide everything that is necessary to feed your pet including high quality dry and semi-moist foods. All
-                  stainless steel food and water bowls are also provided. You need to provide the food if your dog is on a special or
-                  veterinarian prescribed diet. Please provide food in ziplock bags or small plastic containers. No large containers or bags
-                  of food will be accepted.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
-                Is there someone on the premises to care for my pet in the evening, weekend, and holidays?
-                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Our staff is on duty and tending to our canine and feline guests 7 days a week, including holidays. The owners also live
-                  on the premises, and have security cameras to monitor your pets.
-                </p>
-              </div>
-            </li>
-
-            <li>
-              <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">
-                What happens when there is an emergency medical problem? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
-              </div>
-              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  We rely on several excellent veterinarians that are close in proximity to our facility, along with an emergency facility
-                  that is open all night and on holidays. We treat every guest as we would our own and will provide them with the best
-                  attention available.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <hr class="w-95 mt-3 mx-5 opacity-50" data-aos="fade-up" />
-      <section id="contact" class="contact section-bg">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Skontaktuj sie ze Mna</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-7 mt-2 mt-lg-0" data-aos="fade-left">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div id="formularz" class="col-lg-6 col-md-6 mt-4 mt-md-0 contact" data-aos="fade-up">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="formularz">
                 <div class="row">
-                  <h4 class="text-center">Wypelnij formularz, aby dowiedzien sie o ofercie</h4>
-                  <p class="text-center">Ja i moj zespol dotrzemy do Ciebie i powiemy Ci o najlepszych opcjach jakie obecnie mamy!</p>
                   <div class="form-group">
                     <label for="name">Imie i Nazwisko</label>
                     <input type="text" name="name" class="form-control" id="name" required />
@@ -584,7 +460,7 @@
                     <input type="email" class="form-control" name="email" id="email" required />
                   </div>
                   <div class="form-group">
-                    <label for="name">Numer Telefonu</label>
+                    <label for="name">Numer Telefonu (opcjonalnie)</label>
                     <input type="text" class="form-control" name="subject" id="subject" required />
                   </div>
 
@@ -592,34 +468,31 @@
                     <label for="name">Nazwa @ na Instagramie</label>
                     <input type="email" class="form-control" name="email" id="email" required />
                   </div>
-                  <div class="form-group">
-                    <label for="name">Twoj Miesieczny Dochod</label>
-                    <input type="email" class="form-control" name="email" id="email" required />
-                  </div>
                 </div>
 
                 <div class="my-2">
-                  <div class="loading">Ladowanie</div>
+                  <div class="loading">Wysylanie</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Wiadomosc Wyslana. Dziekujemy!</div>
                 </div>
                 <div class="form-check mb-2">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                   <label class="form-check-label" for="flexCheckDefault">
-                    Wyrazam zgode na przetwarzanie i wykorzystanie danych osobowych dla celow marketingowych i handlowych.</label
+                    <small class="text-muted"
+                      >Wyrazam zgode na przetwarzanie i wykorzystanie danych osobowych dla celow marketingowych i handlowych.</small
+                    ></label
                   >
                 </div>
-                <div class="d-flex justify-content-center align-items-center my-2"><button type="submit">Wysli Wiadomosc</button></div>
-                <p class="mt-2 text-center">Rejestracja nie jest równoznaczna z zobowiązaniem.</p>
+                <div class="d-flex justify-content-center align-items-center"><button type="submit">Wysli Wiadomosc</button></div>
+                <small class="text-muted"><p class="mt-2 text-center">Rejestracja nie jest równoznaczna z zobowiązaniem.</p></small>
               </form>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Contact Section -->
+      <!-- End Oferta Section -->
     </main>
     <!-- End #main -->
-
     <!-- ======= Footer ======= -->
 
     <footer class="footer bg-dark text-white py-3">
@@ -627,12 +500,12 @@
         <div class="row justify-content-between">
           <!-- Navigation Links -->
           <div class="col-md-8 d-flex justify-content-around justify-content-md-start">
-            <i class="bi bi-chevron-right"></i><a href="#" class="text-white">O mnie</a> <i class="bi bi-chevron-right"></i>
+            <i class="bi bi-chevron-right"></i>
             <a href="#" class="text-white">Regulamin</a> <i class="bi bi-chevron-right"></i>
             <a href="#" class="text-white">Polityka prywatności</a>
           </div>
           <!-- Divider for small screens only -->
-          <hr class="w-100 d-md-none mt-3" />
+          <hr class="w-100 d-md-none mt-3" data-aos="fade-left" />
           <!-- Copyright Text -->
           <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
             <p class="mb-0 text-center text-md-left">Copyright © AT All Rights Reserved</p>
