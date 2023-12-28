@@ -24,7 +24,6 @@ html {
 
 body {
   font-family: 'Bai Jamjuree', 'Open Sans', sans-serif;
-
   background-color: var(--white);
 }
 
@@ -109,16 +108,21 @@ p {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   height: 7.2rem;
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
-  background: var(--white);
+  background: transparent;
 }
 
 #header.header-scrolled {
+  background: var(--white);
   box-shadow: 0rem 0.2rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+#header.header-scrolled .mobile-nav-toggle {
+  color: #364146;
 }
 
 .header p {
@@ -143,6 +147,14 @@ p {
 }
 .bi-facebook {
   color: var(--blue-facebook);
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 .bi-whatsapp {
@@ -197,13 +209,17 @@ p {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #364146;
+  color: var(--white);
   font-size: 2.8rem;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
 }
+.mobile-nav-toggle .header-scrolled {
+  color: #364146;
+}
+
 .mobile-nav-toggle.bi-x {
   color: var(--white);
 }
@@ -271,7 +287,7 @@ p {
   background: #fff;
   box-shadow: 0rem 0rem 3rem rgba(127, 137, 161, 0.25);
 }
-.navbar-mobile .dropdown ul li {
+/* .navbar-mobile .dropdown ul li {
   min-width: 20rem;
 }
 .navbar-mobile .dropdown ul a {
@@ -279,7 +295,7 @@ p {
 }
 .navbar-mobile .dropdown ul a i {
   font-size: 1.2rem;
-}
+} */
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
@@ -327,7 +343,7 @@ p {
 }
 
 .banner {
-  top: 5%;
+  top: 10%;
   left: 10%;
 }
 .banner-bottom {
@@ -387,12 +403,6 @@ p {
 }
 
 @media (max-width: 43rem) {
-  .banner {
-    width: 100%;
-    left: 0%;
-    top: 3%;
-  }
-
   .banner-bottom {
     top: 55%;
   }
@@ -412,7 +422,7 @@ p {
   }
 
   .banner .hand-written {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -420,20 +430,18 @@ p {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 4rem 0;
   overflow: hidden;
 }
 
 .section-title {
   text-align: center;
-  padding-bottom: 3rem;
+
   text-transform: uppercase;
 }
 .section-title h2 {
+  padding: 3rem 0;
   font-size: 3.2rem;
   font-weight: 400;
-
-  padding-bottom: 0;
 }
 .section-title p {
   margin-bottom: 0;
@@ -441,12 +449,12 @@ section {
 
 @media (max-width: 43rem) {
   .section {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
 
   .section-title h2 {
     font-size: 2.4rem;
-    padding-bottom: 1rem;
+    padding: 2rem 0;
   }
 }
 
@@ -719,6 +727,9 @@ section {
   border: 0.2rem solid #e9ecee;
   border-radius: 0.4rem;
 }
+.contact label {
+  font-size: 1.3rem;
+}
 .contact .info i {
   font-size: 2rem;
   color: #009cea;
@@ -761,14 +772,7 @@ section {
   background: #009cea;
   color: var(--white);
 }
-.contact .info .email:hover i,
-.contact .info .facebook:hover i,
-.contact .info .instagram:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
-  background: var(--blue-dark);
-  color: var(--white);
-}
+
 .contact .php-email-form {
   width: 100%;
   padding: 3rem;
@@ -851,9 +855,17 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  background: #f7f8f9;
-  padding: 0 0 3rem 0;
-  color: #364146;
-  font-size: 1.4rem;
+.footer {
+  overflow: hidden;
+}
+
+.footer i {
+  color: var(--button-pink);
+  font-size: 1.5rem;
+  padding-right: 0.4rem;
+}
+
+.footer a {
+  color: var(--gray-light);
+  font-size: 1.5rem;
 }
