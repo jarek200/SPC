@@ -356,6 +356,7 @@ p {
 
 .banner h1 {
   letter-spacing: 0.2rem;
+
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   animation: moveBanner 1s 0.5s forwards;
 }
