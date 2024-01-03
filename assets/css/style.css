@@ -1,12 +1,13 @@
 :root {
   /* Colors */
-  --test: #f8f8f8;
+  --test: #fafafa;
   --white: #fff;
   --blue-light: #1eb4ff;
   --blue-dark: #00aaff;
   --gray-light: #7b909a;
   --blue-facebook: #3b5998;
   --green-whatsapp: #25d366;
+  --orange-instagram: #dc2743;
   --button-pink: #ff822b;
 }
 
@@ -148,7 +149,7 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: var(--orange-instagram);
 }
 .bi-facebook {
   color: var(--blue-facebook);
