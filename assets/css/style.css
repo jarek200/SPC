@@ -480,6 +480,10 @@ section {
   font-size: 3.2rem;
 }
 
+.about p {
+  font-size: 2rem;
+}
+
 @media (max-width: 43rem) {
   .about p {
     font-size: 1.6rem;
