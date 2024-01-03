@@ -144,13 +144,12 @@ p {
 }
 
 .bi-instagram {
-  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: var(--orange-instagram);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: var(--orange-instagram);
 }
+
 .bi-facebook {
   color: var(--blue-facebook);
   background-color: var(--white);
