@@ -511,32 +511,6 @@ section {
   min-height: 32rem;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #d8dee1;
-  font-size: 2.6rem;
-}
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -0.5rem;
-  position: relative;
-}
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -0.5rem;
-  position: relative;
-  top: 1rem;
-}
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 1.5rem 0 1.5rem;
-  padding: 2rem 2rem 6rem 2rem;
-  background: #f4f6f7;
-  position: relative;
-  border-radius: 0.6rem;
-  position: relative;
-  z-index: 1;
-}
 .testimonials .swiper-pagination {
   margin-top: 2rem;
   position: relative;
@@ -562,7 +536,7 @@ section {
 
 .testimonials .card-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 00;
 }
 
 .testimonials .card-body {
