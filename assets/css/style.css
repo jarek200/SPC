@@ -510,24 +510,7 @@ section {
   box-sizing: content-box;
   min-height: 32rem;
 }
-.testimonials .testimonial-item .testimonial-img {
-  width: 9rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-  border: 0.6rem solid #fff;
-}
-.testimonials .testimonial-item h3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 1rem 0 0.5rem 4.5rem;
-  color: #111;
-}
-.testimonials .testimonial-item h4 {
-  font-size: 1.4rem;
-  color: #999;
-  margin: 0 0 0 4.5rem;
-}
+
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: #d8dee1;
@@ -569,12 +552,16 @@ section {
   background-color: #009cea;
 }
 /*--------------------------------------------------------------
-# Gallery 
+# Przykładowe dania 
 --------------------------------------------------------------*/
 .testimonials img {
   width: auto;
   height: 30rem;
   object-fit: cover;
+}
+
+.testimonials .card-title h3 {
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -674,61 +661,6 @@ section {
   padding: 0.1rem 0 0.3rem 0;
   background: #009cea;
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.faq {
-  padding: 6rem 0;
-}
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-.faq .faq-list li {
-  border-bottom: 0.1rem solid #e3e7e9;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-}
-.faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #009cea;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
-  font-weight: 400;
-  padding-left: 2.5rem;
-  cursor: pointer;
-  color: #007ab7;
-  transition: 0.3s;
-}
-.faq .faq-list i {
-  font-size: 1.6rem;
-  position: absolute;
-  left: 0;
-  top: -0.2rem;
-}
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 1rem 0 0 2.5rem;
-}
-.faq .faq-list .icon-show {
-  display: none;
-}
-.faq .faq-list .collapsed {
-  color: black;
-}
-.faq .faq-list .collapsed:hover {
-  color: #009cea;
-}
-.faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-.faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
 }
 
 /*--------------------------------------------------------------
