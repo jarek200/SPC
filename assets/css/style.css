@@ -560,8 +560,16 @@ section {
   object-fit: cover;
 }
 
-.testimonials .card-title h3 {
-  font-weight: bold;
+.testimonials .card-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.testimonials .card-body {
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*--------------------------------------------------------------
