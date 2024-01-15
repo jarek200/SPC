@@ -414,10 +414,10 @@ p {
 
 @media (max-width: 43rem) {
   .banner {
-    margin-top: 6.5rem;
+    margin-top: 1.5rem;
   }
   .banner-bottom {
-    margin-top: 24rem;
+    margin-top: 26rem;
   }
   .banner h1 {
     font-size: 3.3rem;
@@ -442,226 +442,13 @@ p {
     width: calc(100% - 8rem);
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-top: 2rem;
   }
 
   .banner p {
     text-align: center;
     font-size: 2rem;
   }
-
-  .banner .hand-written {
-    font-size: 3rem;
-  }
-}
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-  overflow: hidden;
-}
-
-.section-title {
-  text-align: center;
-
-  text-transform: uppercase;
-}
-.section-title h2 {
-  padding: 3rem 0;
-  font-size: 3.2rem;
-  font-weight: 400;
-}
-.section-title p {
-  margin-bottom: 0;
-}
-
-@media (max-width: 43rem) {
-  .section {
-    padding: 0.5rem 0;
-  }
-
-  .section-title h2 {
-    font-size: 2.4rem;
-    padding: 2rem 0;
-  }
-}
-
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
-.about {
-  padding: 0;
-}
-
-.about .content h2 {
-  font-weight: 400;
-  font-size: 3.2rem;
-}
-
-.about p {
-  font-size: 2rem;
-}
-
-@media (max-width: 43rem) {
-  .about p {
-    font-size: 1.6rem;
-  }
-}
-
-.about .highlight {
-  color: var(--button-pink);
-}
-
-@media (max-width: 76.8rem) {
-  .about .container {
-    padding: 3rem;
-  }
-}
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 2rem;
-  position: relative;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 1.2rem;
-  height: 1.2rem;
-  background-color: #fff;
-  opacity: 1;
-  border: 0.1rem solid #009cea;
-}
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #009cea;
-}
-.testimonials .img-opinie {
-  width: 100%;
-  height: 60rem;
-  object-fit: cover;
-}
-/*--------------------------------------------------------------
-# Przykładowe dania 
---------------------------------------------------------------*/
-.testimonials img {
-  width: auto;
-  height: 30rem;
-  object-fit: cover;
-}
-
-.testimonials .card-title {
-  font-size: 2rem;
-  font-weight: 00;
-}
-
-.testimonials .card-body {
-  min-height: 15rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 2rem;
-  background: #fff;
-  text-align: center;
-  border-radius: 0.4rem;
-  position: relative;
-  overflow: hidden;
-  border: 0.2rem solid #e9ecee;
-}
-.pricing h3 {
-  font-weight: 400;
-  padding: 2rem 1.5rem;
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: #777777;
-}
-.pricing h4 {
-  font-size: 3.6rem;
-  color: #009cea;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 2rem;
-}
-.pricing h4 sup {
-  font-size: 2rem;
-  top: -1.5rem;
-  left: -0.3rem;
-}
-.pricing h4 span {
-  color: #bababa;
-  font-size: 1.6rem;
-  font-weight: 300;
-}
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 2rem;
-  font-size: 1.4rem;
-}
-.pricing ul li {
-  padding-bottom: 1.6rem;
-}
-.pricing ul i {
-  color: #009cea;
-  font-size: 1.8rem;
-  padding-right: 0.4rem;
-}
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-.pricing .btn-wrap {
-  padding: 2rem 1.5rem;
-  text-align: center;
-}
-.pricing .btn-buy {
-  background: #009cea;
-  display: inline-block;
-  padding: 0.8rem 3rem;
-  border-radius: 0.4rem;
-  color: #fff;
-  font-size: 1.3rem;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.pricing .featured {
-  background: #009cea;
-  border-color: #009cea;
-}
-.pricing .featured h3,
-.pricing .featured h4,
-.pricing .featured h4 span,
-.pricing .featured ul,
-.pricing .featured ul .na {
-  color: #fff;
-}
-.pricing .featured .btn-buy {
-  background: #fff;
-  color: #009cea;
-}
-.pricing .advanced {
-  width: 20rem;
-  position: absolute;
-  top: 1.8rem;
-  right: -6.8rem;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 1.4rem;
-  padding: 0.1rem 0 0.3rem 0;
-  background: #009cea;
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
