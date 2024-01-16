@@ -107,7 +107,6 @@ section {
 
 .section-title {
   text-align: center;
-
   text-transform: uppercase;
 }
 
@@ -212,7 +211,7 @@ section {
   animation: moveBanner 1s 0.5s forwards;
 }
 .banner h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--white);
   animation: moveBanner 1s 0.5s forwards;
 }
@@ -222,11 +221,17 @@ section {
   color: var(--white);
   animation: moveBanner 1s 0.5s forwards;
 }
+.banner h4 {
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  animation: moveBanner 1s 0.5s forwards;
+}
 
 .banner p {
   color: rgba(255, 255, 255, 0.9);
   width: 100%;
-  letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   animation: moveBanner 1s 0.7s forwards;
 }
@@ -281,7 +286,7 @@ section {
     margin-top: 1.5rem;
   }
   .banner-bottom {
-    margin-top: 35rem;
+    margin-top: 30rem;
   }
   .banner h1 {
     font-size: 3.3rem;
@@ -290,7 +295,7 @@ section {
     letter-spacing: 0.1rem;
   }
   .banner h2 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: center;
     color: var(--white);
     animation: moveBanner 1s 0.5s forwards;
@@ -299,6 +304,14 @@ section {
     font-size: 2.5rem;
     text-align: center;
     color: var(--white);
+    animation: moveBanner 1s 0.5s forwards;
+  }
+  .banner h4 {
+    color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
     animation: moveBanner 1s 0.5s forwards;
   }
 
@@ -312,7 +325,7 @@ section {
 
   .banner p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
