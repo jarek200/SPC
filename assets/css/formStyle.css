@@ -183,7 +183,7 @@ section {
 .img-wrapper {
   width: 100%;
   height: 100%;
-  background-image: url('../img/HeroForm.png');
+  background-image: url('../img/omnie2.png');
   background-size: cover;
   background-position: center;
   animation: scale 2s 0.5s forwards;
@@ -207,7 +207,7 @@ section {
 
 .banner h1 {
   font-size: 5rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--white);
   animation: moveBanner 1s 0.5s forwards;
 }
 .banner h2 {
