@@ -186,9 +186,9 @@ section {
   background-image: url('../img/omnie2.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   animation: scale 2s 0.5s forwards;
 }
-
 @keyframes scale {
   0% {
     transform: scale(1.3);
